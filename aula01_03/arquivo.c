@@ -1,7 +1,7 @@
 #include "stdio.h"
 #include "errno.h"
 
-int main (int argc, char * argv[]) {
+int main (int argc, char * argv[]) {kkk
     if (argc < 2) {
         printf( "Uso %s nome_arquivo\n", argv[0]);
         return 1;
